@@ -29,3 +29,24 @@ print(employee_name)
 product_name, product_price = input("Enter product name and price separated by a comma:").split(",")
 print("Product Name:", product_name)
 print("Product Price:", product_price)
+
+
+
+emp_salary = int(input("Enter your salary:"))
+print("Employee Salary:", emp_salary+5000)
+
+prod_price = float(input("Enter product price:"))
+print(prod_price+100.50)
+
+salary = 50000
+bonus = 5000
+print("Total Salary:", salary + bonus)
+print("Salary before bonus:", salary - bonus)
+print(salary * 2)
+print(salary / 2)
+
+#Day 1 Assessment
+employee_name = "Bharathi"
+experience = 2
+print("Employee Name:", employee_name)
+print("Experience:", experience, "Years")
