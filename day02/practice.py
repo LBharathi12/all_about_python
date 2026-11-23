@@ -39,3 +39,21 @@ experience = int(input("Enter years of experience: "))
 performance_score = float(input("Enter performance score: "))
 if experience >= 5 and performance_score >= 80:
     print("Eligible for promotion")
+
+salary = 60000
+
+if salary >= 50000:
+
+    if salary >= 100000:
+        print("Level A")
+
+print("Done")
+
+salary = 120000
+
+if salary >= 50000:
+
+    if salary >= 100000:
+        print("Level A")
+
+print("Done")
