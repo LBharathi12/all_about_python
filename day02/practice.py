@@ -15,3 +15,11 @@ print(salary != 70000)
 
 print(5 < 10 < 20)
 print(5 < 10 > 20)
+
+
+#check if eligible for promotion based on years of experience
+years_of_experience = int(input("Enter years of experience: "))
+if years_of_experience >= 3:
+    print("Eligible for promotion")
+else:
+    print("Not eligible for promotion")
