@@ -1,0 +1,5 @@
+print("Good Morning")
+print("Lalitha")
+print("Employee ID: 101")
+print("Employee Name: Bharathi")
+print("Experience: 2 Years")
