@@ -23,3 +23,19 @@ if years_of_experience >= 3:
     print("Eligible for promotion")
 else:
     print("Not eligible for promotion")
+
+#student performance evaluation based on score
+student_score = float(input("Enter student score: "))
+if student_score >= 90:
+    print("Outstanding")
+elif student_score >= 75:
+    print("Good")
+elif student_score >= 50:
+    print("Average")
+else:
+    print("Needs Improvement")
+
+experience = int(input("Enter years of experience: "))
+performance_score = float(input("Enter performance score: "))
+if experience >= 5 and performance_score >= 80:
+    print("Eligible for promotion")
