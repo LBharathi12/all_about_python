@@ -57,3 +57,19 @@ if salary >= 50000:
         print("Level A")
 
 print("Done")
+
+name = ""
+
+if name:
+    print("Valid")
+
+else:
+    print("Invalid")
+
+name = "Bharathi"
+
+if name:
+    print("Valid")
+
+else:
+    print("Invalid")
