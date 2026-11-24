@@ -17,3 +17,14 @@ elif salary < 50000:
     print("Salary requirement not met")
 else:
     print("Eligible for promotion")
+
+
+employee_name = input("Enter employee name: ")
+employee_salary = float(input("Enter employee salary: "))
+if name:
+    if employee_salary >= 50000:
+        print("Bonus Eligible")
+    else:
+        print("Bonus Not Eligible")
+else:
+    print("Name Required")
