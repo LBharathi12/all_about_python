@@ -73,3 +73,23 @@ if name:
 
 else:
     print("Invalid")
+
+score = 105
+
+if 0 <= score <= 100:
+    print("Valid")
+else:
+    print("Invalid")
+
+expense = -500
+
+if expense > 0:
+    print("Accepted")
+else:
+    print("Rejected")
+
+exp = int(input("Enter years of experience: "))
+performance_score = float(input("Enter performance score: "))
+salary = float(input("Enter salary: "))
+if exp >= 5 and performance_score >= 85 and salary >= 50000:
+    print("Eligible for leadership training")
